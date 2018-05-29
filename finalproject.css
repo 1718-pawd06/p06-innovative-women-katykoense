@@ -1,0 +1,133 @@
+/* Name: Katy Koense
+*  Date: 21 May, 2018
+*  Lab: Final Project */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: lavenderblush;
+    color: black;
+    margin: 0px auto;
+}
+
+/* Headings */
+
+h1 {
+    padding: 10px;
+    font-variant: small-caps; 
+}
+
+h2 {
+	text-align: center;
+	background-color: orchid;
+	color: white;
+}
+
+h4 {padding: 5px;}
+
+header {
+    text-align: center;
+    background-color: mediumpurple;
+    color: white;
+}
+
+/* Quote sections */
+
+#top {
+	text-align: center;
+	padding: 20px;
+	border: 2px solid navy;
+	background-color: lavender;
+}
+
+#bottom {
+	text-align: center;
+	padding: 20px;
+	border: 2px solid navy;
+	clear: both; 
+	background-color: lavender;
+}
+
+/* Content Sections */ 
+
+#sidebarA {
+    width: 20%;
+    height: 580px;
+    float: left;
+    text-align: center;
+    padding: 15px;
+    color: indigo;
+    background-color: thistle;
+}
+
+main {
+    width: 53%;
+    height:580px;
+    float: left;
+    padding: 15px; 
+    border-left: 2px solid navy;
+}
+
+#sidebarB {
+    width: 20%;
+    height: 580px;
+    float: right;
+    text-align: center;
+    padding: 15px;
+    color: indigo;
+    background-color: thistle;
+    border-left: 2px solid navy;
+}
+
+#sidebarC {
+	clear: both;
+	width: 100%;
+}
+
+footer {
+    clear: both;
+    padding: 20px; 
+    background-color: rosybrown;
+}
+
+/*Images*/
+
+	.left {
+		float: center;
+		margin: 20px;
+		border: 3px solid black;
+		height:45%;
+		width: 65%;
+	}	
+	
+	.center {
+		border: 3px double black;
+		height: 40%;
+		width: 70%;
+	}
+	
+	figure{
+		margin-left: 140px; 
+	}
+	
+	.right {
+		float: right;
+		border: 5px solid black;
+		margin: 30px;
+		height: 45%;
+		width: 75%;
+	}
+	
+/* Links */
+
+	a:link {color: blue;}
+	a:visited {color: purple;}
+	a:hover, a:focus {
+		color: darkslateblue;
+		font-size: 10pt;
+	}
+	a:active {color: yellow;}
